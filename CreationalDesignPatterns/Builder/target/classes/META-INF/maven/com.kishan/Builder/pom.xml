@@ -2,12 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.kishan</groupId>
-    <artifactId>DesignPatterns</artifactId>
+    <artifactId>CreationalDesignPatterns</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>CreationalDesignPatterns</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>Builder</module>
-  </modules>
+  <artifactId>Builder</artifactId>
 </project>
