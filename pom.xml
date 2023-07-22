@@ -8,4 +8,47 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+
+    <!-- Spring Boot Parent -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.4</version>
+        <relativePath/> <!-- Remove this if your project is not a multi-module project -->
+    </parent>
+
+    <!-- Dependencies -->
+    <dependencies>
+        <!-- Spring Web Starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- Reactor Dependencies -->
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+            <version>3.4.8</version>
+        </dependency>
+
+        <!-- Spring Data JPA -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <!-- Add other dependencies as needed for your project -->
+
+    </dependencies>
+
+    <!-- Plugin Management -->
+    <build>
+        <pluginManagement>
+            <plugins>
+                <!-- Add Maven plugins as needed for your project -->
+            </plugins>
+        </pluginManagement>
+    </build>
+
 </project>
